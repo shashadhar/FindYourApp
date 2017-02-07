@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="colorPrimaryLight">#B3E5FC</color>
+
+        <color name="colorAccentDisabled">#80448AFF</color>
+
+        <color name="black_color">#000000</color>
+        <color name="list_background">#000000</color>
+        <color name="list_background_pressed">#0B9FE1</color>
+        <color name="counter_text_bg">#FF0000</color>
+        <color name="counter_text_color">#00FF00</color>
+        <color name="list_item_title">#000000</color>
+        <color name="list_divider">#000000</color>
+        <color name="GrayLight">#eeeeee</color>
+        <color name="cawver_foreground">#1E00A1</color>
+        <color name="success_green">#c07ca500</color>
+        <color name="drawer_bg_color">#F0F5F9</color>color>
+        <color name="prescription_side_bar">#2c6e7c</color>
+        <color name="button_bg_color">#1677A1</color>
+        <color name="positra_txt_blue_color">#4999D6</color>
+        <color name="button_bg_color_light_blue">#27aae1</color>
+        <color name="button_bg_color_dark_blue">#1c75bc</color>
+
+        <!--material design-->
+        <color name="black">#212121</color>
+        <color name="textColorPrimary">@android:color/white</color>
+        <color name="textColorSecondary">#757575</color>
+        <color name="dividerColor">#BDBDBD</color>
+        <color name="windowBackground">#FFFFFF</color>
+        <color name="navigationBarColor">#000000</color>
+        <color name="pink">#FF4081</color>
+        <color name="orange">#d9534f</color>
+        <color name="indigo">#3F51B5</color>
+        <color name="dark_blue">#180065</color>
+        <color name="light_blue">#334ee9ff</color>
+        <color name="medium_green">#3d853e</color>
+        <color name="light_green">#3c2ae668</color>
+        <color name="red">#FF0000</color>
+        <color name="dirty_yellow">#ec8c00</color>
+        <color name="dirty_yellow_transparent">#80ec8c00</color>
+        <color name="gray">#d3d3d3</color>
+        <color name="carrot_orange">#ed9121</color>
+
+
+    <color name="theme_primary">#2196F3</color>
+    <color name="theme_primary_dark">#1976D2</color>
+    <color name="theme_primary_light">#BBDEFB</color>
+
+    <color name="theme_background">#FFFFFF</color>
+    <color name="theme_background_inverse">#212121</color>
+
+    <color name="theme_accent_1">#212121</color>
+
+    <color name="theme_primary_trans">#99212121</color>
+
+    <color name="theme_primary_text">#212121</color>
+    <color name="theme_secondary_text">#727272</color>
+    <color name="theme_primary_text_inverted">#ffffff</color>
+    <color name="theme_secondary_text_inverted">#8affffff</color>
+    <color name="theme_icons">#FFFFFF</color>
+
+    </resources>
+

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:descendantFocusability="blocksDescendants"
+        android:padding="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:background="?android:selectableItemBackground"
+                android:padding="0dp"
+                android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:layout_width="0dp">
+
+                            <ImageView
+                                android:id="@+id/image"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:paddingLeft="5dp"
+                            android:layout_gravity="center_vertical"
+                            android:id="@+id/shop_name"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="wrap_content"
+                            android:text="lorem ipsum lorem ipsum lorem ipsum lorem ipsum"
+                            android:textColor="#000000"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/open"
+                            style="@style/Widget.AppCompat.Button.Borderless"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:elevation="2dp"
+                            android:text="OPEN"
+                            android:textAllCaps="true"
+                            android:textColor="@color/theme_primary_dark"
+                            android:textSize="14sp" />
+
+
+
+                    </LinearLayout>
+
+            </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            >
+
+            <Button
+                android:id="@+id/share"
+                android:textColor="@android:color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="SHARE"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:minHeight="15dp"
+                style="@style/OrangeRippleButton"
+                android:textAllCaps="true"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/uninstall"
+                style="@style/OrangeRippleButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:minHeight="15dp"
+                android:text="UNINSTALL"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/details"
+                style="@style/OrangeRippleButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:padding="5dp"
+                android:minHeight="15dp"
+                android:text="Details"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/theme_primary_dark"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+</layout>

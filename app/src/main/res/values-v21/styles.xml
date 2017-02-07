@@ -1,0 +1,16 @@
+<resources>
+    <style name="MyAppMaterialTheme" parent="MaterialTheme.Base">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+
+    <style name="OrangeRippleButton" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/orange_ripple_button_selector</item>
+        <item name="android:stateListAnimator">@anim/state_animator</item>
+        <item name="android:translationZ">2dp</item>
+    </style>
+
+</resources>
